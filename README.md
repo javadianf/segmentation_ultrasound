@@ -147,7 +147,7 @@ binarised at 0.5 and resized back to the original frame dimensions.
 
 | Input frame | Predicted surface |
 | --- | --- |
-| ![Input ultrasound frame](assets/example_input.png) | ![Predicted bone surface](assets/example_prediction.png) |
+| ![Input ultrasound frame](figures/example_input.png) | ![Predicted bone surface](figures/example_prediction.png) |
 
 ## Repository layout
 
