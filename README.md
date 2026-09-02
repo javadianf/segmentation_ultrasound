@@ -110,7 +110,7 @@ holds out all 1,435 frames from participant1 for validation, approximately 14.6
 percent of the data, leaving 8,392 frames from the remaining participants for
 training.
 
-The dataset was provided as part of the MLMT course exercise and is not
+The dataset was provided as part of the MLMT challenge and is not
 redistributed here.
 
 ## Method
