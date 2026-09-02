@@ -1,0 +1,56 @@
+# Rename to .gitignore before committing.
+
+# Data. The challenge dataset is not redistributable and is large.
+data/
+*.nii
+*.nii.gz
+*.dcm
+
+# Model weights. A MiT-B2 checkpoint is roughly 100 MB, well past what
+# should go in a git repo. Use a release asset or an external host instead.
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Inference output and submission archives
+predictions/
+predictions_*/
+train_preds/
+submission*.zip
+
+# SLURM logs and scheduler artifacts
+logs/
+*.out
+*.err
+slurm-*.out
+core.*
+
+# HuggingFace and torch caches. HF_HOME may be pointed inside the repo on
+# clusters whose compute nodes have no outbound network.
+.cache/
+huggingface/
+transformers_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+.conda/
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
