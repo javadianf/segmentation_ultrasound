@@ -226,4 +226,11 @@ record when it is available.
 5. Cardoso, M. J., et al. MONAI: An open-source framework for deep learning in
    healthcare. arXiv:2211.02701, 2022.
 6. Wolf, T., et al. Transformers: State-of-the-Art Natural Language Processing.
+
+
+
+## License
+
+Released under the GNU Affero General Public License v3.0 or later. See
+`LICENSE`.
    EMNLP System Demonstrations, 2020.
