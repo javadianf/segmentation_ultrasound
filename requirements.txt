@@ -1,0 +1,10 @@
+# Upper bounds are deliberate. Albumentations 2.x renamed several arguments used
+# in build_transforms (max_holes, var_limit) and removed ShiftScaleRotate.
+torch>=2.0,<3.0
+torchvision
+transformers>=4.30,<5.0
+albumentations>=1.3,<2.0
+monai>=1.2,<2.0
+numpy<2.0
+Pillow
+tqdm
