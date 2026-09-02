@@ -152,15 +152,17 @@ binarised at 0.5 and resized back to the original frame dimensions.
 ## Repository layout
 
 ```
-.
-├── train.py                 training, subject-aware or random split
-├── predict.py               inference with optional flip TTA
-├── evaluation.py            Dice, precision, recall and ASSD
+
+├── src/
+│   ├── train.py                 training, subject-aware or random split
+│   ├── predict.py               inference with optional flip TTA
+│   ├── evaluation.py            Dice, precision, recall and ASSD
+│   └── slurm/
+│       ├── train_job.sh         SLURM batch script for training
+│       └── predict_job.sh       SLURM batch script for inference
 ├── requirements.txt
-├── slurm/
-│   ├── train_job.sh         SLURM batch script for training
-│   └── predict_job.sh       SLURM batch script for inference
-└── assets/                  figures used in this README
+└── figures/                     figures used in this README
+
 ```
 
 Paths are read from the environment with local fallbacks, so nothing is tied to
