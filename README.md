@@ -7,7 +7,7 @@
 Type: `Challenge`  
 Department: `Lehrstuhl für Medizintechnik (mediTEC), RWTH Aachen`.  
 Supervisors: `Prof. Radermacher, Dr. Hohlmann`.  
-Imaging data: `Prashant U. Pandey et al., “Standardized Evaluation of Current Ultrasound Bone Segmentation Algorithms on Multiple Datasets,” CAOS 2022, EPiC Series in Health Sciences, Vol. 5, pp. 148–153.`
+dataset: `Prashant U. Pandey et al., “Standardized Evaluation of Current Ultrasound Bone Segmentation Algorithms on Multiple Datasets,” CAOS 2022, EPiC Series in Health Sciences, Vol. 5, pp. 148–153.`
 
 ## Problem
 
