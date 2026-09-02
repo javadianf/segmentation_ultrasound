@@ -1,7 +1,13 @@
 # Binary Bone Surface Segmentation in Knee Ultrasound
 
-SegFormer (MiT-B2) fine-tuned for pixel-wise segmentation of bone surfaces in
-freehand knee ultrasound, with a subject-aware validation protocol.
+### SegFormer (MiT-B2) fine-tuned for pixel-wise segmentation of bone surfaces in freehand knee ultrasound, with a subject-aware validation protocol.
+---
+## Project
+
+Type: `Challenge`  
+Department: `Lehrstuhl für Medizintechnik (mediTEC), RWTH Aachen`.  
+Supervisors: `Prof. Radermacher, Dr. Hohlmann`.  
+Imaging data: `Prashant U. Pandey et al., “Standardized Evaluation of Current Ultrasound Bone Segmentation Algorithms on Multiple Datasets,” CAOS 2022, EPiC Series in Health Sciences, Vol. 5, pp. 148–153.`
 
 ## Problem
 
